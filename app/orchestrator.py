@@ -1,5 +1,6 @@
 class SagaOrchestrator:
-    def __init__(self):
+    def __init__
+        print("Initializing SAGA")(self):
         self.steps = []
 class SagaStep:
     async def execute(self, context): raise NotImplementedError
