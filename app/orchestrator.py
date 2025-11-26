@@ -8,3 +8,4 @@ class SagaStep:
     async def compensate(self, context): raise NotImplementedError
     async def run(self, context): pass
     async def rollback(self): pass
+    # Context optimized
